@@ -25,6 +25,7 @@ function getPlayerMove(move) {
     // Write an expression that operates on a variable called `move`
     // If a `move` has a value, your expression should evaluate to that value.
     // However, if `move` is not specified / is null, your expression should equal `getInput()`.
+    // Variable not declared in standard form
      move || getInput(); 
     return getInput();
 
